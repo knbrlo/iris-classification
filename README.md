@@ -32,10 +32,8 @@ docker build -t iris-classification .
 Run the Docker container:
 
 ```
-docker run -p 3000:80 iris-classification
+docker run iris-classification
 ```
-
-The application will be accessible at http://localhost:3000.
 
 # Testing
 Currently, there are no tests set up for this project. As the project grows, I will add unit tests and instructions on how to run them.
